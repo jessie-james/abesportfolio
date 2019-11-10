@@ -1,0 +1,23 @@
+*{
+  margin:0;
+}
+.app-container{
+  background-color: pink;
+}
+.invisible-container{
+  background-color:black;
+
+}
+.protfolio-thumbnail {
+  visibility: hidden;
+  height:100px;
+  width:100px;
+}
+
+.protfolio-thumbnail:hover {
+  display:flex;
+  height:100px;
+  width:100px;
+  visibility: visible;
+
+}
