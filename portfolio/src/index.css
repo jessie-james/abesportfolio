@@ -1,23 +1,32 @@
 *{
   margin:0;
 }
+
 .app-container{
-  background-color: pink;
-}
-.invisible-container{
   background-color:black;
 
+
 }
-.protfolio-thumbnail {
+.MainPage{
+  display:flex;
+  height: 2000px;
+
+}
+.protfolio-thumbnail> .hideMe {
   visibility: hidden;
-  height:100px;
-  width:100px;
+  height:500px;
+  width:200px;
+  opacity: 0;
+  transition: visibility 0s,opacity 0.5s linear;
 }
 
-.protfolio-thumbnail:hover {
+.protfolio-thumbnail:hover >.hideMe {
   display:flex;
-  height:100px;
-  width:100px;
+  height:200px;
+  width:200px;
   visibility: visible;
+  opacity: 1;
+  margin:20px;
+  border-radius: 20px;
 
 }
