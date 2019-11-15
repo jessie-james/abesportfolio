@@ -14,7 +14,6 @@ function App() {
         <Route path='/Summer' component={Summer} />
         <Route path='/Telos' component={Telos} /> */}
       </Switch>
-      
     </div>
   );
 }
