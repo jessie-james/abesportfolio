@@ -1,0 +1,36 @@
+{
+  "name": "Abeportfolio",
+  "version": "1.0.0",
+  "main": "server.js",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "bcrypt": "^3.0.0",
+    "body-parser": "^1.18.3",
+    "dotenv": "^6.2.0",
+    "express": "^4.17.1",
+    "express-jwt": "^5.3.1",
+    "jsonwebtoken": "^8.3.0",
+    "mongoose": "^5.2.15",
+    "morgan": "^1.9.1",
+    "react": "^16.10.0",
+    "react-dom": "^16.10.0",
+    "react-router-dom": "^4.3.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jessie-james/abesportfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jessie-james/abesportfolio/issues"
+  },
+  "homepage": "https://github.com/jessie-james/abesportfolio#readme",
+  "description": ""
+}
